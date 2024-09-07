@@ -1,4 +1,4 @@
-local chat = FRIED.chat
+local chat = CK.chat
 local echo = chat.helpers.echo
 local ok, err = chat.helpers.setConfig(matches[2], matches[3])
 

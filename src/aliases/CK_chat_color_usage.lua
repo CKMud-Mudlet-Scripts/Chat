@@ -1,17 +1,17 @@
-local chat = FRIED.chat
+local chat = CK.chat
 local echo = chat.helpers.echo
 local validOptions = table.keys(chat.config)
 table.sort(validOptions)
 local validOptionsString = table.concat(validOptions, ", ")
-echo("Usage information for changing ckchat colors")
+echo("Usage information for changing CK chat colors")
 echo()
-echo("ckchat color <option> <color>")
+echo("CK chat color <option> <color>")
 echo("Color can be anything you would use in CSS, such as 'rgb(128,128,128)', '#888888', or 'grey'")
 echo("examples:")
-echo("  * ckchat color activeBorder goldenrod")
+echo("  * CK chat color activeBorder goldenrod")
 echo("    * changes the border around the active tab to goldenrod")
-echo("  * ckchat color activeColor #00ff00")
+echo("  * CK chat color activeColor #00ff00")
 echo("    * changes the color of the active tab to green")
 echo()
 echo("Valid options are " .. validOptionsString)
-echo("Remember to use 'ckchat save' to make your changes permanent, or 'ckchat load' to undo them and reset back to what you previously saved.")
+echo("Remember to use 'CK chat save' to make your changes permanent, or 'CK chat load' to undo them and reset back to what you previously saved.")

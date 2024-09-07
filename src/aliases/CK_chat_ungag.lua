@@ -1,4 +1,4 @@
-local chat = FRIED.chat
+local chat = CK.chat
 local success = chat.emco:removeGag(matches[2])
 local echo = chat.helpers.echo
 if success then

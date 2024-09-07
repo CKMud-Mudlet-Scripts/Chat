@@ -1,4 +1,4 @@
-local chat = FRIED.chat
+local chat = CK.chat
 local lecho = chat.helpers.echo
 local gaggedLines = table.keys(chat.emco.gags)
 table.sort(gaggedLines)

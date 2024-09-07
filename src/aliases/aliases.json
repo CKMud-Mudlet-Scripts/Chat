@@ -1,62 +1,58 @@
 [
   {
-    "name": "ckchat",
-    "regex": "^ckchat (save|load|font|fontSize|blink|blankLine|timestamp|show|hide)(?: (.+))?$"
+    "name": "CK chat",
+    "regex": "^CK chat (save|load|font|fontSize|blink|blankLine|timestamp|show|hide)(?: (.+))?$"
   },
   {
-    "name": "ckchat gag",
-    "regex": "^ckchat gag (.+)"
+    "name": "CK chat gag",
+    "regex": "^CK chat gag (.+)"
   },
   {
-    "name": "ckchat ungag",
-    "regex": "^ckchat ungag (.+)"
+    "name": "CK chat ungag",
+    "regex": "^CK chat ungag (.+)"
   },
   {
-    "name": "ckchat gaglist",
-    "regex": "^ckchat gaglist$"
+    "name": "CK chat gaglist",
+    "regex": "^CK chat gaglist$"
   },
   {
-    "name": "ckchat notify",
-    "regex": "^ckchat notify (.*)"
+    "name": "CK chat notify",
+    "regex": "^CK chat notify (.*)"
   },
   {
-    "name": "ckchat unnotify",
-    "regex": "^ckchat unnotify (.*)"
+    "name": "CK chat unnotify",
+    "regex": "^CK chat unnotify (.*)"
   },
   {
-    "name": "ckchat addtab",
-    "regex": "^ckchat addtab (\\w+)( \\d+)?$"
+    "name": "CK chat addtab",
+    "regex": "^CK chat addtab (\\w+)( \\d+)?$"
   },
   {
-    "name": "ckchat remtab",
-    "regex": "^ckchat remtab (.+)"
+    "name": "CK chat remtab",
+    "regex": "^CK chat remtab (.+)"
   },
   {
-    "name": "ckchat color",
-    "regex": "^ckchat color (\\w+) (.+)"
+    "name": "CK chat color",
+    "regex": "^CK chat color (\\w+) (.+)"
   },
   {
-    "name": "ckchat color usage",
-    "regex": "^ckchat color$"
+    "name": "CK chat color usage",
+    "regex": "^CK chat color$"
   },
   {
-    "name": "ckchat usage",
-    "regex": "^ckchat( usage)?$"
+    "name": "CK chat usage",
+    "regex": "^CK chat( usage)?$"
   },
   {
-    "name": "ckchat update",
-    "regex": "^ckchat update$"
+    "name": "CK chat title",
+    "regex": "^CK chat title (.+)"
   },
   {
-    "name": "ckchat title",
-    "regex": "^ckchat title (.+)"
+    "name": "CK chat lock",
+    "regex": "^CK chat lock$"
   },
   {
-    "name": "ckchat lock",
-    "regex": "^ckchat lock$"
-  },
-  {
-    "name": "ckchat unlock",
-    "regex": "^ckchat unlock$"
+    "name": "CK chat unlock",
+    "regex": "^CK chat unlock$"
   }
 ]

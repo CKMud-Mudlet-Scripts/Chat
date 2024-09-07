@@ -1,1 +1,0 @@
-FRIED.chat.container:lockContainer()

@@ -1,4 +1,4 @@
-local chat = FRIED.chat
+local chat = CK.chat
 
 local tabName = matches[2]
 local pos = tonumber(matches[3])

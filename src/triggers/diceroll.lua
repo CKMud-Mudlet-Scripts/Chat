@@ -1,5 +1,5 @@
 -- Get two lines, who rolled and the result
-local emco = FRIED.chat.emco
+local emco = CK.chat.emco
 
 moveCursor(0, getLineNumber() - 1)
 selectCurrentLine()

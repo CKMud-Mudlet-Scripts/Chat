@@ -1,4 +1,4 @@
-local chat = FRIED.chat
+local chat = CK.chat
 local tabName = matches[2]
 local echo = chat.helpers.echo
 local tabList = chat.emco.consoles

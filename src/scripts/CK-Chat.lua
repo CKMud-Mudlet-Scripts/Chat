@@ -1,6 +1,7 @@
-local fried = require("__PKGNAME__.fried")
-local chat = fried:get_table("chat")
-local helpers = fried:get_table("chat.helpers")
+local ck = require("CK")
+ck:register("__PKGNAME__", "__VERSION__")
+local chat = ck:get_table("chat")
+local helpers = ck:get_table("chat.helpers")
 local defaultConfig = { activeColor = "black", inactiveColor = "black", activeBorder = "green", activeText = "green", inactiveText =
 "grey", background = "black", windowBorder = "green", title = "green" }
 local emco = require("__PKGNAME__.emco")
@@ -25,7 +26,7 @@ local adjLabelStyle = Geyser.StyleSheet:new(f [[
   border-radius: 4px;]])
 
 local default_constraints = { 
-    name = "CKChatContainer", 
+    name = "CK chatContainer", 
     x = "0%",
     y = "0%",
     width = "100%",
@@ -38,7 +39,7 @@ local confFile = getMudletHomeDir() .. "/__PKGNAME__/EMCOPrebuiltExtraOptions.lu
 
 function helpers.echo(msg)
     msg = msg or ""
-    cecho(f "<green>CKChat: <reset>{msg}\n")
+    cecho(f "<green>CK chat: <reset>{msg}\n")
 end
 
 function helpers.resetToDefaults()

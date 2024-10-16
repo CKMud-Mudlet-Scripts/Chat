@@ -27,10 +27,10 @@ local adjLabelStyle = Geyser.StyleSheet:new(f [[
 
 local default_constraints = { 
     name = "CK chatContainer", 
-    x = "0%",
+    x = "60%",
     y = "0%",
-    width = "100%",
-    height = "20%",
+    width = "40%",
+    height = "50%",
     titleText = "Tabbed Chat" 
 }
 
